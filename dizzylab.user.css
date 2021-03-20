@@ -1,0 +1,139 @@
+/* ==UserStyle==
+@name        dizzylab auto theme
+@description dizzylab 自适应主题
+@namespace   the1812
+@version     1.0.0
+@author      Grant Howard
+@copyright   2021 Grant Howard (https://github.com/the1812)
+@homepageURL https://github.com/the1812/dizzylab-auto-theme/
+@supportURL  https://github.com/the1812/dizzylab-auto-theme/issues
+@license     MIT
+==/UserStyle== */
+
+@-moz-document domain("www.dizzylab.com") {
+  @media (prefers-color-scheme: light) {
+  html img[data-lazy][src*="holder_banner.jpg"],
+html img[data-src]:not(.lazyloaded) {
+    filter: invert(1) !important;
+  }
+  html .bg-primary {
+    background-color: #fff !important;
+  }
+  html .page-link:focus, html .page-link:hover {
+    color: #fff !important;
+    background-color: #343a40 !important;
+    border-color: #343a40 !important;
+  }
+  html .page-item.active .page-link {
+    border-color: #1a1a1a !important;
+  }
+  html .border-bottom {
+    border-color: #2a2a2a !important;
+  }
+  html .slick-dots li button:before,
+html .slick-dots li.slick-active button:before,
+html .slick-next:before,
+html .slick-prev:before {
+    color: #444 !important;
+  }
+  html .border-dark {
+    border-color: #cfcfd0 !important;
+  }
+  html hr {
+    background-color: transparent !important;
+  }
+  html .nav.bg-dark {
+    background-color: #eee !important;
+  }
+  html .nav-pills .nav-link.active,
+html .nav-pills .show > .nav-link {
+    background-color: #ddd !important;
+  }
+  html h1,
+html h2,
+html h3,
+html h4,
+html h5,
+html h6,
+html a,
+html p,
+html .text-white,
+html .text-light {
+    color: #000 !important;
+  }
+  html #likes_indicator.badge,
+html a[style*=background-color] {
+    color: #fff !important;
+  }
+  html a.text-light:focus, html a.text-light:hover {
+    color: #000 !important;
+  }
+  html .dropdown-item:active, html .dropdown-item.active {
+    background-color: #eee !important;
+  }
+  html .text-muted {
+    color: #484f54 !important;
+  }
+  html .btn:focus {
+    box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.2) !important;
+  }
+  html .btn-dark {
+    color: #000 !important;
+    background-color: #eee !important;
+    border-color: #ddd !important;
+  }
+  html .btn-dark:hover {
+    background-color: #ddd !important;
+  }
+  html .btn-dark:not(:disabled):not(.disabled).active, html .btn-dark:not(:disabled):not(.disabled):active {
+    color: #000 !important;
+    background-color: #ddd !important;
+    border-color: #ddd !important;
+  }
+  html .btn-outline-light {
+    color: #000 !important;
+    border-color: #000 !important;
+  }
+  html .card-header,
+html .card-body,
+html .card {
+    background-color: transparent !important;
+  }
+  html .shadow-sm {
+    box-shadow: 0 0 0 1px #dfdfdf !important;
+  }
+  html .badge-primary,
+html .tooltip-inner {
+    background-color: #eee !important;
+    color: #000 !important;
+  }
+  html .bs-tooltip-auto[x-placement^=bottom] .arrow::before,
+html .bs-tooltip-bottom .arrow::before {
+    border-bottom-color: #eee !important;
+  }
+  html .bs-tooltip-auto[x-placement^=top] .arrow::before,
+html .bs-tooltip-top .arrow::before {
+    border-top-color: #eee !important;
+  }
+  html .plyr--audio .plyr__controls {
+    background-color: transparent !important;
+    color: #000 !important;
+  }
+  html .playlist--list {
+    background-color: #fff !important;
+    color: #1a1a1a !important;
+  }
+  html .playlist--list li {
+    background-color: transparent !important;
+  }
+  html .playlist--list li:hover {
+    background-color: #ddd !important;
+    color: #000 !important;
+  }
+  html .playlist--list li.active {
+    background-color: #eee !important;
+    color: #000 !important;
+  }
+}
+
+}
