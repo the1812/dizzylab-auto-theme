@@ -4,13 +4,13 @@
 @namespace   the1812
 @version     1.0.0
 @author      Grant Howard
-@copyright   2021 Grant Howard (https://github.com/the1812)
 @homepageURL https://github.com/the1812/dizzylab-auto-theme/
 @supportURL  https://github.com/the1812/dizzylab-auto-theme/issues
+@updateURL   https://cdn.jsdelivr.net/gh/the1812/dizzylab-auto-theme@master/dizzylab.user.css
 @license     MIT
 ==/UserStyle== */
 
-@-moz-document domain("www.dizzylab.com") {
+@-moz-document domain("www.dizzylab.net") {
   @media (prefers-color-scheme: light) {
   html img[data-lazy][src*="holder_banner.jpg"],
 html img[data-src]:not(.lazyloaded) {
