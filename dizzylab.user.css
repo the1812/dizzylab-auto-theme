@@ -12,10 +12,6 @@
 
 @-moz-document domain("www.dizzylab.net") {
   @media (prefers-color-scheme: light) {
-  html img[data-lazy][src*="holder_banner.jpg"],
-html img[data-src]:not(.lazyloaded) {
-    filter: invert(1) !important;
-  }
   html .bg-primary {
     background-color: #fff !important;
   }
@@ -60,6 +56,9 @@ html p,
 html .text-white,
 html .text-light {
     color: #000 !important;
+  }
+  html .btn-outline-dark:hover {
+    color: #fff !important;
   }
   html #likes_indicator.badge,
 html a[style*=background-color] {

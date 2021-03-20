@@ -1,9 +1,9 @@
 @media (prefers-color-scheme: light) {
   html {
-    img[data-lazy][src*="holder_banner.jpg"],
-    img[data-src]:not(.lazyloaded) {
-      filter: invert(1) !important;
-    }
+    // img[data-lazy][src*="holder_banner.jpg"],
+    // img[data-src][src*="holder_cover.jpg"] {
+    //   filter: invert(1) !important;
+    // }
     .bg-primary {
       background-color: #fff !important;
     }
@@ -51,6 +51,9 @@
     .text-white,
     .text-light {
       color: #000 !important;
+    }
+    .btn-outline-dark:hover {
+      color: #fff !important;
     }
     #likes_indicator.badge,
     a[style*="background-color"] {
