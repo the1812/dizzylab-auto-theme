@@ -2,7 +2,7 @@
 @name        dizzylab auto theme
 @description dizzylab 自适应主题
 @namespace   the1812
-@version     1.0.1
+@version     1.0.2
 @author      Grant Howard
 @homepageURL https://github.com/the1812/dizzylab-auto-theme/
 @supportURL  https://github.com/the1812/dizzylab-auto-theme/issues
@@ -15,7 +15,7 @@
   html .bg-primary {
     background-color: #fff !important;
   }
-  html .btn-primary {
+  html .navbar .btn-primary {
     background-color: #ddd !important;
   }
   html .page-link:focus, html .page-link:hover {

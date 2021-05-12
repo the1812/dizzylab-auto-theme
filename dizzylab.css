@@ -2,7 +2,7 @@
   html .bg-primary {
     background-color: #fff !important;
   }
-  html .btn-primary {
+  html .navbar .btn-primary {
     background-color: #ddd !important;
   }
   html .page-link:focus, html .page-link:hover {
