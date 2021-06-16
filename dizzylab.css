@@ -2,6 +2,11 @@
   html .bg-primary {
     background-color: #fff !important;
   }
+  html a.bg-primary:focus, html a.bg-primary:hover,
+html button.bg-primary:focus,
+html button.bg-primary:hover {
+    background-color: #ddd !important;
+  }
   html .navbar .btn-primary {
     background-color: #ddd !important;
   }

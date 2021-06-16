@@ -7,6 +7,14 @@
     .bg-primary {
       background-color: #fff !important;
     }
+
+    a.bg-primary,
+    button.bg-primary {
+      &:focus,
+      &:hover {
+        background-color: #ddd !important;
+      }
+    }
     .navbar .btn-primary {
       background-color: #ddd !important;
     }
