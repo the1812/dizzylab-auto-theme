@@ -5,7 +5,7 @@ const style = `
 @name        dizzylab auto theme
 @description dizzylab 自适应主题
 @namespace   the1812
-@version     1.0.3
+@version     1.0.4
 @author      Grant Howard
 @homepageURL https://github.com/the1812/dizzylab-auto-theme/
 @supportURL  https://github.com/the1812/dizzylab-auto-theme/issues
