@@ -2,7 +2,7 @@
 @name        dizzylab auto theme
 @description dizzylab 自适应主题
 @namespace   the1812
-@version     1.0.4
+@version     1.0.5
 @author      Grant Howard
 @homepageURL https://github.com/the1812/dizzylab-auto-theme/
 @supportURL  https://github.com/the1812/dizzylab-auto-theme/issues
@@ -80,6 +80,9 @@ html a[style*=background-color] {
   }
   html .text-muted {
     color: #484f54 !important;
+  }
+  html #checkbuttons .btn-primary {
+    color: #fff !important;
   }
   html .btn:focus {
     box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.2) !important;
