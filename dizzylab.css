@@ -55,8 +55,7 @@ html .text-light {
   html .btn-outline-dark:hover {
     color: #fff !important;
   }
-  html #likes_indicator.badge,
-html a[style*=background-color] {
+  html a[style*=background-color] {
     color: #fff !important;
   }
   html a.text-light:focus, html a.text-light:hover {
