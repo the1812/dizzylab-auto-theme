@@ -15,6 +15,11 @@
         background-color: #ddd !important;
       }
     }
+    .btn-group > .btn-primary {
+      color: #000 !important;
+    }
+    .dropdown > .btn-primary:not([style*="color"]),
+    .btn-group > .btn-primary,
     .navbar .btn-primary {
       background-color: #ddd !important;
     }

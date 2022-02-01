@@ -7,7 +7,12 @@ html button.bg-primary:focus,
 html button.bg-primary:hover {
     background-color: #ddd !important;
   }
-  html .navbar .btn-primary {
+  html .btn-group > .btn-primary {
+    color: #000 !important;
+  }
+  html .dropdown > .btn-primary:not([style*=color]),
+html .btn-group > .btn-primary,
+html .navbar .btn-primary {
     background-color: #ddd !important;
   }
   html .page-link:focus, html .page-link:hover {
