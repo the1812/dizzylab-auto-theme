@@ -20,6 +20,7 @@
     }
     .dropdown > .btn-primary:not([style*="color"]),
     .btn-group > .btn-primary,
+    .bignav .btn-primary,
     .navbar .btn-primary {
       background-color: #ddd !important;
     }
@@ -98,6 +99,7 @@
     .btn-link {
       color: #000 !important;
     }
+    .btn-primary[name="mail-off"],
     .btn-dark {
       color: #000 !important;
       background-color: #eee !important;

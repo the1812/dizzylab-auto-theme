@@ -12,6 +12,7 @@ html button.bg-primary:hover {
   }
   html .dropdown > .btn-primary:not([style*=color]),
 html .btn-group > .btn-primary,
+html .bignav .btn-primary,
 html .navbar .btn-primary {
     background-color: #ddd !important;
   }
@@ -81,15 +82,19 @@ html .text-light {
   html .btn-link {
     color: #000 !important;
   }
-  html .btn-dark {
+  html .btn-primary[name=mail-off],
+html .btn-dark {
     color: #000 !important;
     background-color: #eee !important;
     border-color: #ddd !important;
   }
-  html .btn-dark:hover {
+  html .btn-primary[name=mail-off]:hover,
+html .btn-dark:hover {
     background-color: #ddd !important;
   }
-  html .btn-dark:not(:disabled):not(.disabled).active, html .btn-dark:not(:disabled):not(.disabled):active {
+  html .btn-primary[name=mail-off]:not(:disabled):not(.disabled).active, html .btn-primary[name=mail-off]:not(:disabled):not(.disabled):active,
+html .btn-dark:not(:disabled):not(.disabled).active,
+html .btn-dark:not(:disabled):not(.disabled):active {
     color: #000 !important;
     background-color: #ddd !important;
     border-color: #ddd !important;
