@@ -60,10 +60,10 @@
     background-color: transparent !important;
   }
   html .nav {
-    background-color: #eee !important;
+    background-color: #fff !important;
   }
   html .nav.bg-dark {
-    background-color: #ddd !important;
+    background-color: #eee !important;
   }
   html .nav .nav-pills .nav-link.active,
   html .nav-pills .show > .nav-link {
@@ -163,6 +163,5 @@
       color: var(--flash-color);
     }
   }
-}
 }
 }

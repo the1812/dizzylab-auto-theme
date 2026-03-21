@@ -1,62 +1,102 @@
 @media (prefers-color-scheme: light) {
+  $white: #fff;
+  $black: #000;
+  $text-dark: #1a1a1a;
+  $gray-100: #eee;
+  $gray-200: #ddd;
+  $gray-300: #dfdfdf;
+  $gray-400: #cfcfd0;
+  $gray-500: #484f54;
+  $gray-600: #444;
+  $gray-700: #343a40;
+  $gray-800: #2a2a2a;
+  $focus-shadow: 0 0 0 0.2rem rgb(82 88 93 / 20%);
+
   html {
     // img[data-lazy][src*="holder_banner.jpg"],
     // img[data-src][src*="holder_cover.jpg"] {
     //   filter: invert(1) !important;
     // }
     .bg-primary {
-      background-color: #fff !important;
+      background-color: $white !important;
     }
 
     a.bg-primary,
     button.bg-primary {
       &:focus,
       &:hover {
-        background-color: #ddd !important;
+        background-color: $gray-200 !important;
       }
     }
+
     .btn-group > .btn-primary {
-      color: #000 !important;
+      color: $black !important;
     }
-    .dropdown > .btn-primary:not([style*="color"]),
-    .btn-group > .btn-primary,
-    .bignav .btn-primary,
-    .navbar .btn-primary {
-      background-color: #ddd !important;
+
+    .dropdown > {
+      .btn-primary:not([style*='color']) {
+        background-color: $gray-200 !important;
+      }
     }
+
+    .btn-group >,
+    .bignav,
+    .navbar {
+      .btn-primary {
+        background-color: $gray-200 !important;
+      }
+    }
+
     .page-link {
       &:focus,
       &:hover {
-        color: #fff !important;
-        background-color: #343a40 !important;
-        border-color: #343a40 !important;
+        color: $white !important;
+        background-color: $gray-700 !important;
+        border-color: $gray-700 !important;
       }
     }
+
     .page-item.active .page-link {
-      border-color: #1a1a1a !important;
+      border-color: $text-dark !important;
     }
+
     .border-bottom {
-      border-color: #2a2a2a !important;
+      border-color: $gray-800 !important;
     }
+
     .slick-dots li button:before,
     .slick-dots li.slick-active button:before,
     .slick-next:before,
     .slick-prev:before {
-      color: #444 !important;
+      color: $gray-600 !important;
     }
+
     .border-dark {
-      border-color: #cfcfd0 !important;
+      border-color: $gray-400 !important;
     }
-    hr {
+
+    hr,
+    .card-header,
+    .card-body,
+    .card,
+    .plyr--audio .plyr__controls,
+    .playlist--list li {
       background-color: transparent !important;
     }
-    .nav.bg-dark {
-      background-color: #eee !important;
+
+    .nav {
+      background-color: $white !important;
+
+      &.bg-dark {
+        background-color: $gray-100 !important;
+      }
     }
-    .nav-pills .nav-link.active,
+
+    .nav .nav-pills .nav-link.active,
     .nav-pills .show > .nav-link {
-      background-color: #ddd !important;
+      background-color: $gray-200 !important;
     }
+
     h1,
     h2,
     h3,
@@ -66,98 +106,122 @@
     a,
     p,
     .text-white,
-    .text-light {
-      color: #000 !important;
+    .text-light,
+    .btn-link,
+    .plyr--audio .plyr__controls {
+      color: $black !important;
     }
-    .btn-outline-dark:hover {
-      color: #fff !important;
+
+    .btn-outline-dark:hover,
+    a[style*='background-color'],
+    #checkbuttons .btn-primary {
+      color: $white !important;
     }
-    a[style*="background-color"] {
-      color: #fff !important;
-    }
+
     a.text-light {
       &:focus,
       &:hover {
-        color: #000 !important;
+        color: $black !important;
       }
     }
+
     .dropdown-item {
       &:active,
       &.active {
-        background-color: #eee !important;
+        background-color: $gray-100 !important;
       }
     }
+
     .text-muted {
-      color: #484f54 !important;
+      color: $gray-500 !important;
     }
-    #checkbuttons .btn-primary {
-      color: #fff !important;
-    }
+
     .btn:focus {
-      box-shadow: 0 0 0 0.2rem rgb(82 88 93 / 20%) !important;
+      box-shadow: $focus-shadow !important;
     }
-    .btn-link {
-      color: #000 !important;
-    }
-    .btn-primary[name="mail-off"],
+
+    .btn-primary[name='mail-off'],
     .btn-dark {
-      color: #000 !important;
-      background-color: #eee !important;
-      border-color: #ddd !important;
+      color: $black !important;
+      background-color: $gray-100 !important;
+      border-color: $gray-200 !important;
+
       &:hover {
-        background-color: #ddd !important;
+        background-color: $gray-200 !important;
       }
+
       &:not(:disabled):not(.disabled) {
         &.active,
         &:active {
-          color: #000 !important;
-          background-color: #ddd !important;
-          border-color: #ddd !important;
+          color: $black !important;
+          background-color: $gray-200 !important;
+          border-color: $gray-200 !important;
         }
       }
     }
+
     .btn-outline-light {
-      color: #000 !important;
-      border-color: #000 !important;
+      color: $black !important;
+      border-color: $black !important;
     }
-    .card-header,
-    .card-body,
-    .card {
-      background-color: transparent !important;
-    }
+
     .shadow-sm {
-      box-shadow: 0 0 0 1px #dfdfdf !important;
+      box-shadow: 0 0 0 1px $gray-300 !important;
     }
+
     .badge-primary,
     .tooltip-inner {
-      background-color: #eee !important;
-      color: #000 !important;
+      background-color: $gray-100 !important;
+      color: $black !important;
     }
-    .bs-tooltip-auto[x-placement^="bottom"] .arrow::before,
-    .bs-tooltip-bottom .arrow::before {
-      border-bottom-color: #eee !important;
+
+    .bs-tooltip-auto[x-placement^='bottom'],
+    .bs-tooltip-bottom {
+      .arrow::before {
+        border-bottom-color: $gray-100 !important;
+      }
     }
-    .bs-tooltip-auto[x-placement^="top"] .arrow::before,
-    .bs-tooltip-top .arrow::before {
-      border-top-color: #eee !important;
+
+    .bs-tooltip-auto[x-placement^='top'],
+    .bs-tooltip-top {
+      .arrow::before {
+        border-top-color: $gray-100 !important;
+      }
     }
-    .plyr--audio .plyr__controls {
-      background-color: transparent !important;
-      color: #000 !important;
-    }
+
     .playlist--list {
-      background-color: #fff !important;
-      color: #1a1a1a !important;
+      background-color: $white !important;
+      color: $text-dark !important;
+
       li {
-        background-color: transparent !important;
         &:hover {
-          background-color: #ddd !important;
-          color: #000 !important;
+          background-color: $gray-200 !important;
+          color: $black !important;
         }
+
         &.active {
-          background-color: #eee !important;
-          color: #000 !important;
+          background-color: $gray-100 !important;
+          color: $black !important;
         }
+      }
+    }
+
+    @keyframes deflate-bounce {
+      0%,
+      14%,
+      100% {
+        transform: translateY(0);
+        color: $black;
+      }
+
+      6% {
+        transform: translateY(-8px);
+        color: var(--flash-color);
+      }
+
+      9% {
+        transform: translateY(0);
+        color: var(--flash-color);
       }
     }
   }
