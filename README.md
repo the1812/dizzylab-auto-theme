@@ -6,7 +6,7 @@
 ## 安装
 > 需要浏览器拥有 [Stylus](https://github.com/openstyles/stylus) 或其他同类插件.
 
-[点击此处](https://cdn.jsdelivr.net/gh/the1812/dizzylab-auto-theme@master/dizzylab.user.css)安装.
+[点击此处](https://cdn.jsdelivr.net/gh/the1812/dizzylab-auto-theme@main/dizzylab.user.css)安装.
 
 ## 文件说明
 - `dizzylab.scss`: 项目的源码文件。这里可以使用变量、嵌套等 SCSS 语法，日常修改应优先改这个文件。

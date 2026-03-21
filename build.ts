@@ -32,7 +32,7 @@ const buildUserStyle = async () => {
 @author      Grant Howard
 @homepageURL https://github.com/the1812/dizzylab-auto-theme/
 @supportURL  https://github.com/the1812/dizzylab-auto-theme/issues
-@updateURL   https://cdn.jsdelivr.net/gh/the1812/dizzylab-auto-theme@master/dizzylab.user.css
+@updateURL   https://cdn.jsdelivr.net/gh/the1812/dizzylab-auto-theme@main/dizzylab.user.css
 @license     MIT
 ==/UserStyle== */
 
