@@ -1,0 +1,19 @@
+{
+  "name": "dizzylab-auto-theme",
+  "version": "1.0.9",
+  "type": "module",
+  "private": true,
+  "description": "dizzylab 自适应主题，跟随系统亮/暗设定。",
+  "packageManager": "pnpm@10.27.0",
+  "scripts": {
+    "build": "tsx build.ts",
+    "watch": "tsx build.ts --watch",
+    "build-user-css": "pnpm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^24.12.0",
+    "sass": "^1.93.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.2"
+  }
+}

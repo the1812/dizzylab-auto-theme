@@ -4,22 +4,15 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Watch CSS",
+      "label": "Watch UserStyle",
       "type": "shell",
-      "command": "sass dizzylab.scss:dizzylab.css --no-source-map --watch",
-      "problemMatcher": []
-    },
-    {
-      "label": "Build CSS",
-      "type": "shell",
-      "command": "sass dizzylab.scss:dizzylab.css --no-source-map",
+      "command": "pnpm run watch",
       "problemMatcher": []
     },
     {
       "label": "Build UserStyle",
       "type": "shell",
-      "command": "node build.js",
-      "dependsOn": "Build CSS",
+      "command": "pnpm run build",
       "problemMatcher": []
     }
   ]
