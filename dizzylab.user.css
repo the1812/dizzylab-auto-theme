@@ -83,6 +83,10 @@
   html .plyr--audio .plyr__controls {
     color: #000 !important;
   }
+  html #dm-grid-view .dm-author-attending-badge,
+  html #dm-list-view .dm-author-attending-badge {
+    color: #fff !important;
+  }
   html .btn-outline-dark:hover,
   html a[style*=background-color],
   html #checkbuttons .btn-primary {

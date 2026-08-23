@@ -112,6 +112,11 @@
       color: $black !important;
     }
 
+    #dm-grid-view .dm-author-attending-badge,
+    #dm-list-view .dm-author-attending-badge {
+      color: $white !important;
+    }
+
     .btn-outline-dark:hover,
     a[style*='background-color'],
     #checkbuttons .btn-primary {
