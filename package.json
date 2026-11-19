@@ -1,6 +1,6 @@
 {
   "name": "dizzylab-auto-theme",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "type": "module",
   "private": true,
   "description": "dizzylab 自适应主题，跟随系统亮/暗设定。",

@@ -97,6 +97,22 @@
       background-color: $gray-200 !important;
     }
 
+    .bignav .navtab.text-light,
+    #catTab .nav-link {
+      color: $gray-500 !important;
+
+      &:hover,
+      &:focus,
+      &:active,
+      &.active {
+        color: $black !important;
+      }
+    }
+
+    #catTab .nav-link.active::after {
+      background-color: $gray-500;
+    }
+
     h1,
     h2,
     h3,
@@ -146,6 +162,7 @@
     }
 
     .btn-primary[name='mail-off'],
+    .btn-primary[href='#collapsecommit'],
     .btn-dark {
       color: $black !important;
       background-color: $gray-100 !important;

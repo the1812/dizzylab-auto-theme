@@ -2,7 +2,7 @@
 @name        dizzylab auto theme
 @description dizzylab 自适应主题
 @namespace   the1812
-@version     1.0.9
+@version     1.0.10
 @author      Grant Howard
 @homepageURL https://github.com/the1812/dizzylab-auto-theme/
 @supportURL  https://github.com/the1812/dizzylab-auto-theme/issues
@@ -69,6 +69,20 @@
   html .nav-pills .show > .nav-link {
     background-color: #ddd !important;
   }
+  html .bignav .navtab.text-light,
+  html #catTab .nav-link {
+    color: #484f54 !important;
+  }
+  html .bignav .navtab.text-light:hover, html .bignav .navtab.text-light:focus, html .bignav .navtab.text-light:active, html .bignav .navtab.text-light.active,
+  html #catTab .nav-link:hover,
+  html #catTab .nav-link:focus,
+  html #catTab .nav-link:active,
+  html #catTab .nav-link.active {
+    color: #000 !important;
+  }
+  html #catTab .nav-link.active::after {
+    background-color: #484f54;
+  }
   html h1,
   html h2,
   html h3,
@@ -105,16 +119,20 @@
     box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.2) !important;
   }
   html .btn-primary[name=mail-off],
+  html .btn-primary[href="#collapsecommit"],
   html .btn-dark {
     color: #000 !important;
     background-color: #eee !important;
     border-color: #ddd !important;
   }
   html .btn-primary[name=mail-off]:hover,
+  html .btn-primary[href="#collapsecommit"]:hover,
   html .btn-dark:hover {
     background-color: #ddd !important;
   }
   html .btn-primary[name=mail-off]:not(:disabled):not(.disabled).active, html .btn-primary[name=mail-off]:not(:disabled):not(.disabled):active,
+  html .btn-primary[href="#collapsecommit"]:not(:disabled):not(.disabled).active,
+  html .btn-primary[href="#collapsecommit"]:not(:disabled):not(.disabled):active,
   html .btn-dark:not(:disabled):not(.disabled).active,
   html .btn-dark:not(:disabled):not(.disabled):active {
     color: #000 !important;
